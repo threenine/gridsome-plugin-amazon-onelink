@@ -1,0 +1,14 @@
+{
+  "name": "gridsome-plugin-amazon-onelink",
+  "version": "1.0.0",
+  "description": "A gridsome plugin to add Amazon OneLink script to your girdsome blog",
+  "main": "gridsome.client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gridsome"
+  ],
+  "author": "Gary Woodfine <hello@threenine.co.uk>",
+  "license": "MPL-2.0"
+}
