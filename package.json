@@ -4,13 +4,25 @@
   "description": "A gridsome plugin to add Amazon OneLink script to your girdsome blog",
   "main": "gridsome.client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "vue-cli-service lint",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint"
   },
   "keywords": [
-    "gridsome"
+    "gridsome plugin",
+    "Amazon OneLink"
   ],
-  "author": "Gary Woodfine <hello@threenine.co.uk>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/threenine/gridsome-plugin-amazon-onelink.git"
+  },
+  "author": "threenine.co.uk <hello@threenine.co.uk> (https://threenine.co.uk)",
   "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/threenine/gridsome-plugin-amazon-onelink/issues"
+  },
+  "homepage": "https://github.com/threenine/gridsome-plugin-amazon-onelink#readme",
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.5.4",
     "@vue/cli-service": "^4.5.4",

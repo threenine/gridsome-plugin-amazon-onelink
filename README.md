@@ -1,5 +1,5 @@
 
-#
+# Gridsome plugin for Amazon Onelink Configuration
 
 
 

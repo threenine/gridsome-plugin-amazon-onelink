@@ -1,19 +1,16 @@
-
 export default function (Vue, options, context) {
-
-    if(!options.affiliateId){
-        console.error('affiliate Id not set')
+    if (!options.affiliateId) {
+        console.error("affiliate Id not set");
     }
 
-    if(!options.affiliateUrl) options.affiliateUrl = '//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId='
+    if (!options.affiliateUrl)
+        options.affiliateUrl =
+            "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=";
 
-    Vue.prototype.$oneLink = function () {}
+    Vue.prototype.$oneLink = function () {};
 
-    function setupOneLink(options){
-
-    }
+    function setupOneLink(options) {}
 }
-
 
 /*
 
