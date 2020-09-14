@@ -1,6 +1,22 @@
 
 # Gridsome plugin for Amazon Onelink Configuration
 
+A plugin to enable adding the Amazon Onelink to your Gridsome based website.
+
+### What is Amazon OneLink
+
+Amazon OneLink enables you to monetize traffic on your site from a number of different locales including 
+United Kingdom (UK),  Canada and Germany via Amazon's text links. 
+
+It will require you to register for a [US based Amazon Associates](https://affiliate-program.amazon.com/) 
+
+
+### Support This Project
+
+If you have found this project helpful, either as a library that you use or as a learning tool, please consider buying the team a coffee:
+
+<a href="https://www.buymeacoffee.com/XBhTJcRiC" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important" ></a>
+
 
 
 
