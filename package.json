@@ -10,8 +10,10 @@
     "prepush": "npm run lint"
   },
   "keywords": [
-    "gridsome plugin",
-    "Amazon OneLink"
+    "gridsome",
+    "Amazon OneLink",
+    "gridsome-plugin",
+    "Amazon Affiliate"
   ],
   "files": [
     "gridsome.client.js"

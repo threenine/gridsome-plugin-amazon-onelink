@@ -10,6 +10,26 @@ United Kingdom (UK),  Canada and Germany via Amazon's text links.
 
 It will require you to register for a [US based Amazon Associates](https://affiliate-program.amazon.com/) 
 
+### How to Install
+
+Open your terminal window in the root directory of your Gridsome project
+`npm i npm i gridsome-plugin-amazon-onelink`
+
+## Get your Amazon One Link Id
+
+
+
+### Configure 
+
+```javascript
+{
+   use: 'gridsome-plugin-amazon-onelink',
+     options: {
+               id: process.env.AMAZON_ONELINK
+            }
+        }
+```
+
 
 ### Support This Project
 
