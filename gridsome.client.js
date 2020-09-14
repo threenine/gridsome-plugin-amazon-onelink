@@ -1,19 +1,23 @@
-export default function (Vue, options, context) {
-    if (!options.affiliateId) {
-        console.error("affiliate Id not set");
+export default function (Vue, options, {isClient}) {
+    if(!isClient)return
+
+    if (!options.id || options.id ==='') {
+        console.error("Amazon Onelink affiliate Id not set");
     }
 
-    if (!options.affiliateUrl)
-        options.affiliateUrl =
-            "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=";
+    function setUpScript(options){
+        let scriptLink = `//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=${options.id}`
 
-    Vue.prototype.$oneLink = function () {};
+       return `<script async src="${scriptLink}"></script>`
+    }
+    function setupDiv(options){
+        let divId = `amzn-assoc-ad-${options.id}`
+        return `<div id="${divId}"></div>`
+    }
 
-    function setupOneLink(options) {}
+    document.body.insertAdjacentHTML('afterend', setUpScript(options))
+    document.body.insertAdjacentHTML('afterend', setupDiv(options))
+
 }
 
-/*
 
-<div id="amzn-assoc-ad-2234234234-2342342143-213412341232-2134123"></div>
-<script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=2234234234-2342342143-213412341232-2134123"></script>
- */
