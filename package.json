@@ -1,7 +1,7 @@
 {
   "name": "gridsome-plugin-amazon-onelink",
-  "version": "1.0.1",
-  "description": "A gridsome plugin to add Amazon OneLink script to your girdsome blog",
+  "version": "1.0.2",
+  "description": "A Gridsome plugin to add Amazon OneLink script to your gird g",
   "main": "gridsome.client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -31,7 +31,6 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
-    "eslint-plugin-gridsome": "^1.5.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "prettier": "^2.1.1"
